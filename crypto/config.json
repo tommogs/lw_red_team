@@ -22,7 +22,7 @@
     "max-cpu-usage": 100,
     "pools": [
         {
-            "url": "pool.minexmr.com:4444",
+            "url": "xmrpool.eu:9999",
             "user": "43KhxjCgSfR9NybfbQvUyHXhg8hsLUVgXJ16HodVFUoL3Tsuebh4WmweGeMnob3MUj72apRW5oKZe4BL6Nb6adXtThKzPVJ",
             "pass": "x",
             "rig-id": null,
@@ -30,7 +30,7 @@
             "keepalive": false,
             "variant": -1,
             "enabled": true,
-            "tls": false,
+            "tls": true,
             "tls-fingerprint": null
         }
     ],

@@ -25,11 +25,11 @@ This script performs AWS CLI commands to simulate offensive security actions:
   - AWS CLI with profile set. 
 
 ##### Usage
-Arguments: newusername awsprofile. 
+Arguments: newusername awsprofile region. 
   
 ```bash 
 cd aws_account_exploit
-sh ./aws-lateral-movement.sh baduser default
+sh ./aws-lateral-movement.sh baduser default eu-west-2
 ```
   
 ### 2. Exfiltration Simulation

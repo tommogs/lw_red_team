@@ -29,7 +29,7 @@ Arguments: newusername awsprofile region.
   
 ```bash 
 cd aws_account_exploit
-sh ./aws-lateral-movement.sh baduser default eu-west-2
+sh ./aws_lateral_movement.sh baduser default eu-west-2
 ```
   
 ### 2. Exfiltration Simulation

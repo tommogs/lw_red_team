@@ -76,7 +76,7 @@ kubectl apply -f https://raw.githubusercontent.com/tommogs/lw_red_team/main/cryp
 Run the following command to delete the example.  
 
 ```bash
-kubectl delete -f https://raw.githubusercontent.com/lacework-dev/scripts/main/k8s-crypto-miner.yaml
+kubectl delete -f https://raw.githubusercontent.com/tommogs/lw_red_team/main/crypto/k8s-crypto-miner.yaml
 ```
 Here is the script:  
 https://github.com/tommogs/lw_red_team/blob/main/crypto/k8s-crypto-miner.yaml

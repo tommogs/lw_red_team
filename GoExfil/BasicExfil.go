@@ -25,7 +25,7 @@ func main() {
 	for i, s := range a {
 		x := 0
 		for x < 15 {
-			url := s // we are using a pulib IP API, we're using ipify here, below are some others
+			url := s // we are using a public IP API, we're using ipify here, below are some others
 			log.Println(s, i)
 			resp, err := http.Get(url)
 			if err != nil {

@@ -21,7 +21,7 @@ func init() {
 
 func main() {
 	log.Println("Starting simulated exfiltration...")
-	a := []string{"http://api.ipify.org?format=text", "https://photobucket.com", "https://dog.ceo/api/breeds/image/random", "https://deelay.me/8000/https://picsum.photos/200/300"}
+	a := []string{"http://api.ipify.org?format=text", "https://photobucket.com", "https://dog.ceo/api/breeds/image/random", "https://cataas.com/cat/says/hello%20world!"}
 	for i, s := range a {
 		x := 0
 		for x < 15 {
